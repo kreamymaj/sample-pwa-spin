@@ -1,0 +1,33 @@
+#spinner
+{
+    height:229px;
+    width:200px;
+    background:url("../images/spinner-a.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:block;
+    margin:auto;
+    margin-top: 80px;
+}
+/*#speedometer
+{
+    
+} */
+button
+{
+    background-color: #18cea4;
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+#spin_id{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: sans-serif;
+}

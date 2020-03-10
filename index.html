@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/spin.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ios Support-->
+    <link rel="apple-touch-icon" href="images/icons/icon-96x96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+    
+    <title>Spinner</title>
+</head>
+<body>
+        <div id="spinner" onclick="accelerate()"></div>
+
+        <div class="spin-content" id="spin_id">
+            <div id="speedometer">Angular Velocity : </div>
+            <button onclick="stopper()">STOP</button>
+        </div>   
+
+        <div class="text-p" id="text">
+            <p>THIS IS A SAMPLE OF PROGRESSIVE WEB APPLICATION</p>
+        </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
